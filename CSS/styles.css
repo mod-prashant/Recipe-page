@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --font-weight-heading: 400;
+    --White: hsl(0, 0%, 100%);
+    --Stone100: hsl(30, 54%, 90%);
+    --Stone150: hsl(30, 18%, 87%);
+    --Stone600: hsl(30, 10%, 34%);
+    --Stone900: hsl(24, 5%, 18%);
+    --Brown800: hsl(14, 45%, 36%);
+    --Rose800: hsl(332, 51%, 32%);
+    --Rose50: hsl(330, 100%, 98%);
+}
+
+body{
+    display: grid;
+    grid-template-rows: 1fr;
+    background: var(--Rose50);  
+    font-family: 'Outfit';
+    color: var(--Stone900);
+}
+
+h1,h2{
+    font-family: 'Young Serif';
+    color: var(--Rose800);
+    font-weight: var(--font-weight-heading);
+}
+main{
+    display: grid;
+    place-items: center;
+}
+
+.recipe{
+    width: 50%;
+    background: var(--White);
+    border-radius: 0.7rem;
+    overflow: hidden;
+    min-width: 21rem;
+    padding: 1.3rem;
+}
+
+.dish-image{
+    width: 100%;
+    border-radius: 0.7rem;
+    display: block;
+}
+ul li{
+    list-style: disc;
+}
