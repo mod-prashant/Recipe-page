@@ -23,8 +23,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- [Solution Repository]()
-- [Live Demo]()
+- [Solution Repository](https://github.com/mod-prashant/Recipe-page)
+- [Live Demo](https://recipe-page-beta-drab.vercel.app/)
 
 ## My process
 
