@@ -19,7 +19,7 @@
 
 body{
     display: grid;
-    grid-template-rows: 1fr;
+    grid-template-rows: 1fr ;
     background: var(--Rose50);  
     font-family: 'Outfit';
     color: var(--Stone900);
@@ -36,12 +36,12 @@ main{
 }
 
 .recipe{
-    width: 50%;
+    max-width: 20rem;
     background: var(--White);
     border-radius: 0.7rem;
     overflow: hidden;
     min-width: 21rem;
-    padding: 1.3rem;
+    padding: 2rem;
 }
 
 .dish-image{
